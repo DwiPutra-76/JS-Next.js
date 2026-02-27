@@ -45,3 +45,19 @@ function tambah(a, b = a) {
 }
 console.log(tambah(5));
 console.log(tambah(5, 3));
+
+//TERNARY OPERATOR
+let usia = 20;
+let status = umur >= 18 ? "Dewasa" : "Anak-anak";
+console.log(status);
+
+let nilai = 75;
+let hasil = nilai >= 80 ? "Lulus" : "Tidak lulus";
+console.log(hasil);
+
+//Nested ternary
+let skor = 85;
+let grade = skor >= 90 ? "A":
+            skor >= 80 ? "B":
+            skor >= 70 ? "C" : "D";
+console.log(grade);

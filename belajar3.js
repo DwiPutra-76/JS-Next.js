@@ -20,6 +20,12 @@ function tambah(a, b) {
 let hasil = tambah(5, 3);
 console.log(hasil);
 
+function kurang(a, b) {
+    return a - b;
+}
+let hasilkurang = kurang(5, 3);
+console.log(hasilkurang);
+
 //Expression
 const kali = function(a, b) {
     return a * b;
