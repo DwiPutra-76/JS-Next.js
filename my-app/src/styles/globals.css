@@ -36,16 +36,6 @@ a {
   text-decoration: none;
 }
 
-.navbar {
-  display: flex;
-  width: 100%;
-  height: 70px;
-  background-color: #000;
-  color: #fff;
-  align-items: center;
-  padding: 0 45%;
-}
-
 /* @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
