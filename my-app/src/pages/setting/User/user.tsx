@@ -1,4 +1,4 @@
-const userSetting = () => {
+const UserSetting = () => {
     return(
         <div>
             <h1>
@@ -8,5 +8,5 @@ const userSetting = () => {
     )
 }
 
-export default userSetting;
+export default UserSetting;
 //contoh nested routing

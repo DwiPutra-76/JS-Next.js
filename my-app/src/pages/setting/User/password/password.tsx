@@ -1,4 +1,4 @@
-const passwordUser = () => {
+const PasswordUser = () => {
     return(
         <div>
             <h1>12345678</h1>
@@ -6,4 +6,4 @@ const passwordUser = () => {
     );
 }
 
-export default passwordUser;
+export default PasswordUser;

@@ -1,9 +1,11 @@
-const resgisterPage = () => {
+import RegisterView from "@/views/auth/register/registerView";
+
+const RegisterPage = () => {
     return(
-        <div>
-            <h1>Register Page</h1>
-        </div>
+        <>
+        <RegisterView/>
+        </>
     );
 }
 
-export default resgisterPage;
+export default RegisterPage;

@@ -1,0 +1,73 @@
+@import "@/styles/colors.scss";
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: #f3f4f6; // abu-abu muda
+}
+
+.card {
+  background: #fff;
+  padding: 2.5rem; // jarak lebih besar dari border
+  border-radius: 0.75rem;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  width: 24rem;
+}
+
+.title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.input {
+  border: 1px solid #d1d5db;
+  border-radius: 0.375rem;
+  padding: 0.5rem 0.75rem;
+  font-size: 0.95rem;
+  outline: none;
+
+  &:focus {
+    border-color: #3b82f6;
+    box-shadow: 0 0 0 2px rgba(59,130,246,0.3);
+  }
+}
+
+.button {
+  background: #3b82f6;
+  color: #fff;
+  padding: 0.5rem;
+  border-radius: 0.375rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.2s ease;
+
+  &:hover {
+    background: #2563eb;
+  }
+}
+
+.footer {
+  font-size: 0.85rem;
+  text-align: center;
+  margin-top: 1rem;
+  color: #6b7280;
+}
+
+.link {
+  color: #3b82f6;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}

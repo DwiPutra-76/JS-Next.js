@@ -1,4 +1,4 @@
-const appSettingPage = () => {
+const AppSettingPage = () => {
     return(
         <div>
             <h1>App Settings</h1>
@@ -6,4 +6,4 @@ const appSettingPage = () => {
     );
 }
 
-export default appSettingPage;
+export default AppSettingPage;

@@ -1,23 +1,12 @@
-/* eslint-disable react-hooks/rules-of-hooks */
-import Link from "next/link";
-import { useRouter } from "next/router";
-import style from "./Login.module.css";
-
-const loginPage = () => {
-    const { push } = useRouter();
-    const handlerLogin = () => {
-        push("/product")
-    }
+import styles from "@/views/auth/login/Login.module.scss";
+import LoginView from "@/views/auth/login/login";
+const LoginPage = () => {
     return(
-        <div className= {style.login}>
-            <h1>Login Page</h1>
-            <button onClick={() => handlerLogin()}>Login</button>
-             <p>
-                Belum punya aku? Registrasi <Link href={"/auth/register"}>disini</Link>
-             </p>
+        <div>
+            <LoginView />
         </div>
     );
 }
 
-export default loginPage;//contoh Link               
+export default LoginPage;//contoh Link               
 //sistem navigasi menggunakan next router dengan menggunakan method push
